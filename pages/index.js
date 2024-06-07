@@ -134,7 +134,7 @@ export default function HomePage() {                       //transaction platfor
         <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#f9f9f9" }}>
         <div className="account-info" style={{ marginBottom: "1rem" }}>
           <p>user Account: {account}</p>
-          <p>user Balance: {balance}</p>
+          <p>Total Balance: {balance}</p>
         </div>
         <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#ff0c47", color: "white" }} onClick={deposit}>
           Deposit 1 ETH
@@ -166,7 +166,7 @@ export default function HomePage() {                       //transaction platfor
 
   return (
     <main className="container">
-      <header><h1>This is My ETHEREUM Transactionn Platform</h1></header>
+      <header><h1>My ETHEREUM Transaction Platform</h1></header>
       {initUser()}
       <style jsx>{`
         .container {
