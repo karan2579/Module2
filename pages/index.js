@@ -166,7 +166,7 @@ export default function HomePage() {                       //transaction platfor
 
   return (
     <main className="container">
-      <header><h1>This is My transaction platform</h1></header>
+      <header><h1>This is My ETHEREUM Transactionn Platform</h1></header>
       {initUser()}
       <style jsx>{`
         .container {
