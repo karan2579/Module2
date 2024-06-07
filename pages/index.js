@@ -133,24 +133,24 @@ export default function HomePage() {                       //transaction platfor
       <>
         <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#f9f9f9" }}>
         <div className="account-info" style={{ marginBottom: "1rem" }}>
-          <p>Your Account: {account}</p>
-          <p>Your Balance: {balance}</p>
+          <p>user Account: {account}</p>
+          <p>user Balance: {balance}</p>
         </div>
-        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#4CAF50", color: "white" }} onClick={deposit}>
+        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#ff0c47", color: "white" }} onClick={deposit}>
           Deposit 1 ETH
         </button>
-        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#f44336", color: "white" }} onClick={withdraw}>
+        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#ff6647", color: "white" }} onClick={withdraw}>
           Withdraw 1 ETH
         </button>
       </div>
 
       <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#f9f9f9" }}>
-        <h1>Your ERC20 Shopping</h1>
-        <p>Your Total order: {Order}</p>
-        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#2196F3", color: "white" }} onClick={increment}>
+        <h1>Your ERC20 TOKEN Shopping</h1>
+        <p>Your Total Token order: {Order}</p>
+        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "ff66f6", color: "white" }} onClick={increment}>
           Place order
         </button>
-        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#FF5722", color: "white" }} onClick={decrement}>
+        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#000000", color: "white" }} onClick={decrement}>
           Cancel order
         </button>
         </div>
