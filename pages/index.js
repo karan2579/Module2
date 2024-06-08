@@ -133,7 +133,7 @@ export default function HomePage() {                       //transaction platfor
       <>
         <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#3cb371" }}>
         <div className="account-info" style={{ marginBottom: "1rem" }}>
-          <p><b>User Account: {account}</b></p>
+          <h3><b>User Account: {account}</b></h3>
           <p><b>Total Balance: {balance}</b></p>
         </div>
         <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#ff0c47", color: "white" }} onClick={deposit}>
@@ -145,7 +145,7 @@ export default function HomePage() {                       //transaction platfor
       </div>
 
       <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#25ffff" }}>
-        <h1>Your ERC20 TOKEN Shopping</h1>
+        <h2>Your ERC20 TOKEN Shopping</h2>
         <p>Your Total Token order: {Order}</p>
         <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#a300a4", color: "white" }} onClick={increment}>
           Place order
