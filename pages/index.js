@@ -131,10 +131,10 @@ export default function HomePage() {                       //transaction platfor
 
     return (
       <>
-        <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#f9f9f9" }}>
+        <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#3cb371" }}>
         <div className="account-info" style={{ marginBottom: "1rem" }}>
-          <p>user Account: {account}</p>
-          <p>Total Balance: {balance}</p>
+          <p><b>User Account: {account}</b></p>
+          <p><b>Total Balance: {balance}</b></p>
         </div>
         <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#ff0c47", color: "white" }} onClick={deposit}>
           Deposit 1 ETH
@@ -144,10 +144,10 @@ export default function HomePage() {                       //transaction platfor
         </button>
       </div>
 
-      <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#f9f9f9" }}>
+      <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#25ffff" }}>
         <h1>Your ERC20 TOKEN Shopping</h1>
         <p>Your Total Token order: {Order}</p>
-        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#ff66f6", color: "white" }} onClick={increment}>
+        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#a300a4", color: "white" }} onClick={increment}>
           Place order
         </button>
         <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#000000", color: "white" }} onClick={decrement}>
