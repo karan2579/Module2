@@ -147,7 +147,7 @@ export default function HomePage() {                       //transaction platfor
       <div className="user-info" style={{ margin: "2rem auto", padding: "1rem", border: "1px solid #ccc", borderRadius: "8px", width: "60%", backgroundColor: "#f9f9f9" }}>
         <h1>Your ERC20 TOKEN Shopping</h1>
         <p>Your Total Token order: {Order}</p>
-        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "ff66f6", color: "white" }} onClick={increment}>
+        <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#ff66f6", color: "white" }} onClick={increment}>
           Place order
         </button>
         <button className="button" style={{ margin: "0.5rem", padding: "0.5rem 1rem", border: "none", borderRadius: "4px", cursor: "pointer", backgroundColor: "#000000", color: "white" }} onClick={decrement}>
