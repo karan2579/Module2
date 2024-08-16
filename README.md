@@ -29,7 +29,7 @@ Typically at http://localhost:3000/
 
 
 ## Authors
-Abhigyan Pushkar
+Karanveer Mittal
 
 ## License
 
